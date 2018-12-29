@@ -11,12 +11,12 @@
 * Config repository ("https://github.com/handymantj/microservices-config.git" you can use this or copy to your own repository)
 
 ### Installing
-เปิดโปรเจค ด้วย IDE ตามถนัด รัน maven คำสั่ง spring-boot:run ทีละโปรเจคตามลำดับต่อไปนี้
-	1. config-server 
-	2. eureka-server 
-	3. zuul-server
-	4. auth-server 
-	5. promotion-service
+เปิดโปรเจค ด้วย IDE ที่ถนัด หรือเปิดด้วย console รันคำสั่ง "mvn spring-boot:run" ทีละโปรเจคตามลำดับต่อไปนี้
+	1. config-server สำหรับอ่าน config ของ service ต่างๆ ที่เก็บไว้บน Repository ที่เดียวกัน
+	2. eureka-server สำหรับจัดการลงทะเบียน service
+	3. zuul-server สำหรับ mapping service url กับชื่อ service
+	4. auth-server สำหรับยืนยันตัวตน ตรวจสอบสิทธิ และหรือมอบหมายสิทธิ์การใช้งาน
+	5. promotion-service 
 	6. order-service
 
 ### running test
