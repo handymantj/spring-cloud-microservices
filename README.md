@@ -1,37 +1,27 @@
 # Project Title
-
-Microservices ด้วย spring cloud และ netflix oss
+ทำ Microservices ด้วย spring cloud netflix oss
 
 ## Getting Started
-เพื่ออธิบายวิธีการ Run project บน Local Machine
+อธิบายวิธีการ Run project บน Local Machine
 
 ### Prerequisites
-
-Java 8
-Maven
-Internet connection
-
-## Config file
-https://github.com/handymantj/microservices-config.git
+* Java 8
+* Maven
+* Internet connection
+* Config repository ("https://github.com/handymantj/microservices-config.git" you can use this or copy to your own repository)
 
 ### Installing
-
-เปิดโปรเจค ด้วย IDE ตามถนัด รันทีละโปรเจคตามลำดับต่อไปนี้
+เปิดโปรเจค ด้วย IDE ตามถนัด รัน maven คำสั่ง spring-boot:run ทีละโปรเจคตามลำดับต่อไปนี้
 	1. config-server 
 	2. eureka-server 
 	3. zuul-server
-	4. auth-server (ยังไม่ได้ implement codeข้ามไปก่อนก็ได้) 
+	4. auth-server 
 	5. promotion-service
 	6. order-service
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
-
-* 	ขอบคุณพี่ปิเก้ ที่แชร์เรื่องนี้
-*	ขอบคุณพี่บอมที่มอบความรู้ให้ และจุดประกายไฟ
+*	ขอบคุณพี่บอมที่มอบความรู้และจุดประกายไฟ
+* 	ขอบคุณพี่ปิเก้ที่แชร์เรื่องนี้
 
 
 
