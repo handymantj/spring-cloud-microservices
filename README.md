@@ -12,12 +12,12 @@
 
 ### Installing
 เปิดโปรเจค ด้วย IDE ที่ถนัด หรือเปิดด้วย console รันคำสั่ง "mvn spring-boot:run" ทีละโปรเจคตามลำดับต่อไปนี้
-	1. config-server สำหรับอ่าน config ของ service ต่างๆ ที่เก็บไว้บน Repository ที่เดียวกัน
-	2. eureka-server สำหรับจัดการลงทะเบียน service
-	3. zuul-server สำหรับ mapping service url กับชื่อ service
-	4. auth-server สำหรับยืนยันตัวตน ตรวจสอบสิทธิ และหรือมอบหมายสิทธิ์การใช้งาน
-	5. promotion-service 
-	6. order-service
+	1. config-server สำหรับอ่าน config ของ service ต่างๆ ที่เก็บไว้บน Repository ที่เดียวกัน <br />
+	2. eureka-server สำหรับจัดการลงทะเบียน service <br />
+	3. zuul-server สำหรับ mapping service url กับชื่อ service <br />
+	4. auth-server สำหรับยืนยันตัวตน ตรวจสอบสิทธิ และหรือมอบหมายสิทธิ์การใช้งาน <br />
+	5. promotion-service <br />
+	6. order-service <br />
 
 ### running test
 http:localhost:8761
@@ -26,7 +26,7 @@ http:localhost:8761
 
 ## Acknowledgments
 *	ขอบคุณพี่บอมที่มอบความรู้และจุดประกายไฟ
-* 	ขอบคุณพี่ปิเก้ที่แชร์เรื่องนี้
+* 	ขอบคุณพี่ปิเก้ที่แชร์เรื่องนี้ Spring Cloud
 
 
 
