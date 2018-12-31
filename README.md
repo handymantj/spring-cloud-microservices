@@ -13,9 +13,9 @@
 
 ### Installing
 เปิดโปรเจค ด้วย IDE หรือเปิดด้วย Console รันคำสั่ง <br /> 
-'''
-"mvn spring-boot:run" 
-'''
+```
+mvn spring-boot:run 
+```
 ทีละโปรเจคตามลำดับต่อไปนี้ <br />
 	1. config-server สำหรับอ่าน config ของ service ต่างๆ ที่เก็บไว้บน Repository ที่เดียวกัน <br />
 	2. eureka-server สำหรับ register service และ discovery service อื่นๆ รวมถึงสร้าง instance ของ service<br />
