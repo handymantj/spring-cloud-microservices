@@ -9,7 +9,7 @@
 * Java 8
 * Maven
 * Internet connection
-* Config repository ("https://github.com/handymantj/microservices-config.git" you can use this or copy to your own repository)
+* Config repository ("https://github.com/handymantj/microservices-config.git" you can use this or copy config files to your own repository)
 
 ### Installing
 เปิดโปรเจค ด้วย IDE หรือเปิดด้วย Console รันคำสั่ง <br /> 
