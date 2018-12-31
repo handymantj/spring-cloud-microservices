@@ -16,7 +16,7 @@
 ```
 mvn spring-boot:run 
 ```
-ทีละโปรเจคตามลำดับต่อไปนี้ <br />
+รันทีละโปรเจคตามลำดับต่อไปนี้ <br />
 	1. config-server สำหรับอ่าน config ของ service ต่างๆ ที่เก็บไว้บน Repository ที่เดียวกัน <br />
 	2. eureka-server สำหรับ register service และ discovery service อื่นๆ รวมถึงสร้าง instance ของ service<br />
 	3. zuul-server สำหรับ mapping service url กับชื่อ service <br />
