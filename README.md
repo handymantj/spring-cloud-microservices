@@ -8,7 +8,7 @@
 ### Prerequisites
 * Java 8
 * Maven
-* Internet connection
+* Internet connection for Maven to download artifacts and bootstrap configurations at Github
 * Config repository ("https://github.com/handymantj/microservices-config.git" you can use this or copy config files to your own repository)
 
 ### Installing
