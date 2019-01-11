@@ -16,7 +16,7 @@
 ```
 mvn spring-boot:run 
 ```
-รันทีละโปรเจคตามลำดับต่อไปนี้ <br />
+โดยรันทีละโปรเจคตามลำดับต่อไปนี้ <br />
 	1. config-server  <br />
 	2. eureka-server <br />
 	3. zuul-server  <br />
